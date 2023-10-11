@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D344125267291A800A196DD /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D344124267291A700A196DD /* GameViewController.swift */; };
 		5DF6049E264A981E000F38A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF6049D264A981E000F38A4 /* AppDelegate.swift */; };
-		5DF604A0264A981E000F38A4 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 5DF6049F264A981E000F38A4 /* GameScene.sks */; };
-		5DF604A2264A981E000F38A4 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 5DF604A1264A981E000F38A4 /* Actions.sks */; };
-		5DF604A4264A981E000F38A4 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF604A3264A981E000F38A4 /* GameScene.swift */; };
 		5DF604A6264A981E000F38A4 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF604A5264A981E000F38A4 /* GameViewController.swift */; };
 		5DF604A9264A981E000F38A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DF604A7264A981E000F38A4 /* Main.storyboard */; };
 		5DF604AB264A981E000F38A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DF604AA264A981E000F38A4 /* Assets.xcassets */; };
 		5DF604B6264A981E000F38A4 /* Stickman_JumpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF604B5264A981E000F38A4 /* Stickman_JumpTests.swift */; };
 		5DF604C1264A981E000F38A4 /* Stickman_JumpUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF604C0264A981E000F38A4 /* Stickman_JumpUITests.swift */; };
+		5DF604E2264A9FE6000F38A4 /* MenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF604E0264A9FE6000F38A4 /* MenuScene.swift */; };
+		5DF604E7264AA149000F38A4 /* MenuScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 5DF604E6264AA149000F38A4 /* MenuScene.sks */; };
+		5DF604EA264AAED3000F38A4 /* GameSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF604E9264AAED3000F38A4 /* GameSelection.swift */; };
+		5DF604EC264AAEE7000F38A4 /* GameSelection.sks in Resources */ = {isa = PBXBuildFile; fileRef = 5DF604EB264AAEE7000F38A4 /* GameSelection.sks */; };
+		5DF604EF264ABA2B000F38A4 /* ClimbGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF604EE264ABA2B000F38A4 /* ClimbGame.swift */; };
+		5DF604F1264ABB20000F38A4 /* stickman.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 5DF604F0264ABB20000F38A4 /* stickman.atlas */; };
+		5DF604F3264ABB9D000F38A4 /* ClimbGame.sks in Resources */ = {isa = PBXBuildFile; fileRef = 5DF604F2264ABB9D000F38A4 /* ClimbGame.sks */; };
+		5DF604F6264ABCB3000F38A4 /* RunGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF604F5264ABCB3000F38A4 /* RunGame.swift */; };
+		5DF604F8264ABCEB000F38A4 /* RunGame.sks in Resources */ = {isa = PBXBuildFile; fileRef = 5DF604F7264ABCEB000F38A4 /* RunGame.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,11 +43,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5D344124267291A700A196DD /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		5DF6049A264A981E000F38A4 /* Stickman Jump.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stickman Jump.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DF6049D264A981E000F38A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5DF6049F264A981E000F38A4 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		5DF604A1264A981E000F38A4 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
-		5DF604A3264A981E000F38A4 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		5DF604A5264A981E000F38A4 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		5DF604A8264A981E000F38A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5DF604AA264A981E000F38A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +56,15 @@
 		5DF604BC264A981E000F38A4 /* Stickman JumpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Stickman JumpUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DF604C0264A981E000F38A4 /* Stickman_JumpUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stickman_JumpUITests.swift; sourceTree = "<group>"; };
 		5DF604C2264A981E000F38A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DF604E0264A9FE6000F38A4 /* MenuScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuScene.swift; sourceTree = "<group>"; };
+		5DF604E6264AA149000F38A4 /* MenuScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MenuScene.sks; sourceTree = "<group>"; };
+		5DF604E9264AAED3000F38A4 /* GameSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSelection.swift; sourceTree = "<group>"; };
+		5DF604EB264AAEE7000F38A4 /* GameSelection.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameSelection.sks; sourceTree = "<group>"; };
+		5DF604EE264ABA2B000F38A4 /* ClimbGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimbGame.swift; sourceTree = "<group>"; };
+		5DF604F0264ABB20000F38A4 /* stickman.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = stickman.atlas; sourceTree = "<group>"; };
+		5DF604F2264ABB9D000F38A4 /* ClimbGame.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = ClimbGame.sks; sourceTree = "<group>"; };
+		5DF604F5264ABCB3000F38A4 /* RunGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunGame.swift; sourceTree = "<group>"; };
+		5DF604F7264ABCEB000F38A4 /* RunGame.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = RunGame.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +95,7 @@
 		5DF60491264A981E000F38A4 = {
 			isa = PBXGroup;
 			children = (
+				5DF604F0264ABB20000F38A4 /* stickman.atlas */,
 				5DF6049C264A981E000F38A4 /* Stickman Jump */,
 				5DF604B4264A981E000F38A4 /* Stickman JumpTests */,
 				5DF604BF264A981E000F38A4 /* Stickman JumpUITests */,
@@ -101,11 +116,13 @@
 		5DF6049C264A981E000F38A4 /* Stickman Jump */ = {
 			isa = PBXGroup;
 			children = (
+				5DF604F4264ABCA2000F38A4 /* Run Game */,
+				5DF604ED264ABA0E000F38A4 /* Climb Game */,
+				5DF604E8264AAEB0000F38A4 /* Game Selection */,
+				5DF604D0264A9869000F38A4 /* Menu Screen */,
 				5DF6049D264A981E000F38A4 /* AppDelegate.swift */,
-				5DF6049F264A981E000F38A4 /* GameScene.sks */,
-				5DF604A1264A981E000F38A4 /* Actions.sks */,
-				5DF604A3264A981E000F38A4 /* GameScene.swift */,
 				5DF604A5264A981E000F38A4 /* GameViewController.swift */,
+				5D344124267291A700A196DD /* GameViewController.swift */,
 				5DF604A7264A981E000F38A4 /* Main.storyboard */,
 				5DF604AA264A981E000F38A4 /* Assets.xcassets */,
 				5DF604AC264A981E000F38A4 /* Info.plist */,
@@ -129,6 +146,42 @@
 				5DF604C2264A981E000F38A4 /* Info.plist */,
 			);
 			path = "Stickman JumpUITests";
+			sourceTree = "<group>";
+		};
+		5DF604D0264A9869000F38A4 /* Menu Screen */ = {
+			isa = PBXGroup;
+			children = (
+				5DF604E6264AA149000F38A4 /* MenuScene.sks */,
+				5DF604E0264A9FE6000F38A4 /* MenuScene.swift */,
+			);
+			name = "Menu Screen";
+			sourceTree = "<group>";
+		};
+		5DF604E8264AAEB0000F38A4 /* Game Selection */ = {
+			isa = PBXGroup;
+			children = (
+				5DF604EB264AAEE7000F38A4 /* GameSelection.sks */,
+				5DF604E9264AAED3000F38A4 /* GameSelection.swift */,
+			);
+			name = "Game Selection";
+			sourceTree = "<group>";
+		};
+		5DF604ED264ABA0E000F38A4 /* Climb Game */ = {
+			isa = PBXGroup;
+			children = (
+				5DF604F2264ABB9D000F38A4 /* ClimbGame.sks */,
+				5DF604EE264ABA2B000F38A4 /* ClimbGame.swift */,
+			);
+			name = "Climb Game";
+			sourceTree = "<group>";
+		};
+		5DF604F4264ABCA2000F38A4 /* Run Game */ = {
+			isa = PBXGroup;
+			children = (
+				5DF604F5264ABCB3000F38A4 /* RunGame.swift */,
+				5DF604F7264ABCEB000F38A4 /* RunGame.sks */,
+			);
+			name = "Run Game";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,10 +287,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DF604F1264ABB20000F38A4 /* stickman.atlas in Resources */,
+				5DF604F3264ABB9D000F38A4 /* ClimbGame.sks in Resources */,
 				5DF604A9264A981E000F38A4 /* Main.storyboard in Resources */,
-				5DF604A0264A981E000F38A4 /* GameScene.sks in Resources */,
 				5DF604AB264A981E000F38A4 /* Assets.xcassets in Resources */,
-				5DF604A2264A981E000F38A4 /* Actions.sks in Resources */,
+				5DF604E7264AA149000F38A4 /* MenuScene.sks in Resources */,
+				5DF604F8264ABCEB000F38A4 /* RunGame.sks in Resources */,
+				5DF604EC264AAEE7000F38A4 /* GameSelection.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,9 +318,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5DF604A4264A981E000F38A4 /* GameScene.swift in Sources */,
+				5D344125267291A800A196DD /* GameViewController.swift in Sources */,
+				5DF604EF264ABA2B000F38A4 /* ClimbGame.swift in Sources */,
 				5DF604A6264A981E000F38A4 /* GameViewController.swift in Sources */,
+				5DF604E2264A9FE6000F38A4 /* MenuScene.swift in Sources */,
+				5DF604EA264AAED3000F38A4 /* GameSelection.swift in Sources */,
 				5DF6049E264A981E000F38A4 /* AppDelegate.swift in Sources */,
+				5DF604F6264ABCB3000F38A4 /* RunGame.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
